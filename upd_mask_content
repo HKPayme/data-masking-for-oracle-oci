@@ -1,5 +1,5 @@
 # Update the table with masking content 
-UPDATE bus_dev.les_offer_header SET cust_name = standard_hash(cust_name), add_1 = standard_hash(ADD_1), add_2=standard_hash(ADD_2), add_3=standard_hash(ADD_3), add_4=standard_hash(ADD_4), ADD_5=standard_hash(ADD_5), contact_name=standard_hash(contact_name),
+UPDATE bus_dev.off_hder SET cust_name = standard_hash(cust_name), add_1 = standard_hash(ADD_1), add_2=standard_hash(ADD_2), add_3=standard_hash(ADD_3), add_4=standard_hash(ADD_4), ADD_5=standard_hash(ADD_5), contact_name=standard_hash(contact_name),
 phone=substr(standard_hash(phone),1,20),
 fax=substr(standard_hash(fax),1,20),
 email=standard_hash(email), 
